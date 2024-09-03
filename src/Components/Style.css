@@ -1,0 +1,58 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: grey;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+.slider-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Image-Box{
+    height: 400px;
+    width: 500px;
+    background-color: aquamarine;
+    border: 2px solid green;
+    
+}
+
+.current-image{
+    height: 100%;
+    width: 100%;
+}
+.not-active{
+    display: none;
+}
+.button-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    height: 20px;
+    width: 30px;
+    background-color: aliceblue;
+    border-radius: 25%;
+}
+
+.active{
+    background-color: black;
+}
